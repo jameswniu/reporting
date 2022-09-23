@@ -18,8 +18,8 @@ print('\nL:\\auto_opportunity_analysis\\MLX_Daily_Reporting\\MLX_Daily_Report\\'
 parms = {
     'host': 'revpgdb01.revintel.net',
     'database': 'tpliq_tracker_db',
-    'user': 'user_db',
-    'password': 'passwd_db'
+    'user': user_db,
+    'password': passwd_db
 }
 conn = psycopg2.connect(**parms)
 cur = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
