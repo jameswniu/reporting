@@ -18,8 +18,8 @@ print('\nL:\\auto_opportunity_analysis\\MLX_Daily_Reporting\\MLX_Daily_Report_No
 parms = {
     'host': 'revpgdb01.revintel.net',
     'database': 'tpliq_tracker_db',
-    'user': 'james_niu_u',
-    'password': 'Cw18745.'
+    'user': user_db,
+    'password': passwd_db
 }
 conn = psycopg2.connect(**parms)
 cur = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
@@ -1073,3 +1073,4 @@ print('L:\\auto_opportunity_analysis\\MLX_Daily_Reporting\\MLX_Daily_Report_Not_
 print('\ndate_time completed: ' + minutestr + '... copy file path and press any key to end')
 
 input()
+

@@ -17,7 +17,7 @@ Generate daily report for all claims.py
 
 Generate daily report with visuals for claims not billed only.py
 
-Generate daily report with visuals for claims without fax only.py
+Generate daily report with visuals for claims without fax numbers only.py
 
-Generate pending and rejected records report from database after cleaning and push copy to Linux.py
+Generate pending and rejected records report from database after cleaning and store on Linux server.py
 
