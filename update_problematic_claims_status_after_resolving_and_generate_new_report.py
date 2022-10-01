@@ -7,7 +7,7 @@ from datetime import datetime as dt
 from pytz import timezone as tz
 
 from config import user_db, passwd_db
-from database__reporting__automation__store_alerts_automatically_cross_verify_status_w_other_tables_create_report_and_format_it import backup_jopari_responses, generate_james_report, format_macro, refresh_billed_status
+from database__reporting__automation__store_asc_x12_alerts_automatically_cross_verify_status_w_other_tables_create_report_and_format_it import backup_jopari_responses, generate_james_report, format_macro, refresh_billed_status
 
 
 def update_responses_flag(file, x, con):
